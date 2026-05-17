@@ -77,7 +77,7 @@ heart-disease-prediction-ml/
 
 ## Heart Disease Distribution
 
-![Heart Disease Distribution](Heart%20Disease%20Distribution.png)
+<img src="Heart%20Disease%20Distribution.png" width="800">
 
 The dataset shows a relatively balanced distribution between patients with and without heart disease.
 
@@ -85,7 +85,7 @@ The dataset shows a relatively balanced distribution between patients with and w
 
 ## Correlation Matrix
 
-![Correlation Matrix](Correlation%20Matrix.png)
+<img src="Correlation%20Matrix.png" width="800">
 
 The correlation matrix helps identify relationships between features and the target variable.
 
@@ -97,7 +97,7 @@ Positive values indicate positive correlation while negative values indicate inv
 
 ## KNN Hyperparameter Tuning
 
-![Hyperparameter Tuning](Hyperparameter%20Tuning.png)
+<img src="Hyperparameter%20Tuning.png" width="800">
 
 Different K values were tested to determine the optimal number of neighbors for the KNN model.
 
@@ -109,7 +109,7 @@ Hyperparameter tuning helps improve model performance and optimize classificatio
 
 ## Random Forest Confusion Matrix
 
-![Random Forest Confusion Matrix](Random%20Forest%20Confusion%20Matrix.png)
+<img src="Random%20Forest%20Confusion%20Matrix.png" width="700">
 
 The Random Forest model achieved the best overall performance with:
 - High Accuracy
@@ -128,11 +128,17 @@ The confusion matrix visualizes:
 
 ## Accuracy Comparison Between Models
 
-![Final Model Comparison](Final%20Model%20Comparison.png)
+<img src="Final%20Model%20Comparison.png" width="800">
 
 The comparison graph shows the performance difference between all implemented machine learning algorithms.
 
 Random Forest and SVM achieved the highest accuracy among all models.
+
+---
+
+# Best Performing Model
+
+Random Forest achieved the highest performance among all models with the best overall accuracy and classification results.
 
 ---
 
