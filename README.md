@@ -1,8 +1,8 @@
 # Heart Disease Prediction using Machine Learning
 
-This project implements a complete End-to-End Machine Learning Pipeline for predicting heart disease using multiple classification algorithms and comparative analysis.
+This project implements a complete End-to-End Machine Learning Pipeline for predicting heart disease using multiple Machine Learning classification algorithms and comparative analysis.
 
-The project follows a real-world Machine Learning workflow including:
+The project follows a real-world machine learning workflow including:
 - Data Cleaning
 - Exploratory Data Analysis (EDA)
 - Data Preprocessing
@@ -63,17 +63,21 @@ heart-disease-prediction-ml/
 │
 ├── Heart_Disease_Project.ipynb
 ├── heart_disease_uci.csv
-├── screenshots/
+├── Correlation Matrix.png
+├── Final Model Comparison.png
+├── Heart Disease Distribution.png
+├── Hyperparameter Tuning.png
+├── Random Forest Confusion Matrix.png
 └── README.md
 ```
 
 ---
 
-# Exploratory Data Analysis
+# Exploratory Data Analysis (EDA)
 
 ## Heart Disease Distribution
 
-![Heart Disease Distribution](heart_disease_distribution.png)
+![Heart Disease Distribution](Heart%20Disease%20Distribution.png)
 
 The dataset shows a relatively balanced distribution between patients with and without heart disease.
 
@@ -81,9 +85,11 @@ The dataset shows a relatively balanced distribution between patients with and w
 
 ## Correlation Matrix
 
-![Correlation Matrix](correlation_matrix.png)
+![Correlation Matrix](Correlation%20Matrix.png)
 
 The correlation matrix helps identify relationships between features and the target variable.
+
+Positive values indicate positive correlation while negative values indicate inverse correlation.
 
 ---
 
@@ -91,9 +97,11 @@ The correlation matrix helps identify relationships between features and the tar
 
 ## KNN Hyperparameter Tuning
 
-![KNN Tuning](knn_tuning.png)
+![Hyperparameter Tuning](Hyperparameter%20Tuning.png)
 
 Different K values were tested to determine the optimal number of neighbors for the KNN model.
+
+Hyperparameter tuning helps improve model performance and optimize classification accuracy.
 
 ---
 
@@ -101,9 +109,18 @@ Different K values were tested to determine the optimal number of neighbors for 
 
 ## Random Forest Confusion Matrix
 
-![Random Forest Confusion Matrix](random_forest_cm.png)
+![Random Forest Confusion Matrix](Random%20Forest%20Confusion%20Matrix.png)
 
-The Random Forest model achieved the best overall performance with high prediction accuracy and lower classification errors.
+The Random Forest model achieved the best overall performance with:
+- High Accuracy
+- Better Classification Performance
+- Lower Prediction Errors
+
+The confusion matrix visualizes:
+- True Positives
+- True Negatives
+- False Positives
+- False Negatives
 
 ---
 
@@ -111,11 +128,11 @@ The Random Forest model achieved the best overall performance with high predicti
 
 ## Accuracy Comparison Between Models
 
-![Model Comparison](model_comparison.png)
+![Final Model Comparison](Final%20Model%20Comparison.png)
 
-The comparison graph shows the performance difference between all implemented machine learning models.
+The comparison graph shows the performance difference between all implemented machine learning algorithms.
 
-Random Forest and SVM achieved the highest accuracy among all algorithms.
+Random Forest and SVM achieved the highest accuracy among all models.
 
 ---
 
@@ -147,12 +164,16 @@ Heart_Disease_Project.ipynb
 
 This project successfully implemented a complete Machine Learning pipeline for heart disease prediction.
 
-The results demonstrate that ensemble and advanced classification models such as Random Forest and SVM provide better predictive performance compared to simpler baseline models.
+The results demonstrate that advanced and ensemble classification models such as:
+- Random Forest
+- Support Vector Machine (SVM)
+
+provide better predictive performance compared to baseline models.
 
 The project also highlights the importance of:
-- Data preprocessing
-- Feature scaling
-- Hyperparameter tuning
-- Comparative evaluation
+- Data Preprocessing
+- Feature Scaling
+- Hyperparameter Tuning
+- Comparative Evaluation
 
-in building accurate Machine Learning systems.
+in building accurate and efficient Machine Learning systems.
